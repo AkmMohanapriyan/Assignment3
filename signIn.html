@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--boostrap css cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- boostrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>SignIn Form</title>
+
+    <style>
+        
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .row{
+            margin-top: 120px;
+            background-color: #F8ECE4;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-weight: bold;
+        }
+        .home {
+            color: #FF6F0F;
+        }
+
+        img{
+            width: 80%;
+            padding-left: 80px;
+        }
+        .intro {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .btn-SWG {
+        background-color:  #FF6F0F;
+        color: white;
+        }
+
+        .btn-SWG:hover, .btn-login:hover{
+        background-color: orange;
+        color: blue;
+        }
+
+        .form {
+            padding-top: 70px;
+        }
+
+        p a {
+        text-decoration: none;
+        }
+
+        a:hover{
+        color:  #FF6F0F;
+        }
+        .btn-login {
+            background-color: #FF6F0F;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"]{
+        border-color:  #FF6F0F;
+    }
+
+    </style>
+
+</head>
+<body>
+    
+
+    <section class="signup-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-center">Welcome to <span class="home">Home</span>Bites</h1>
+
+                    <img src="Assests/IMAGE/eating.png" alt="cooking image" class="">
+
+                    <p class="text-center intro">Stay Safe! And Feel The Taste!</p>
+
+                    <p class="f-para">To keep connected with us please login with your personal Information by email Address and Password </p>
+
+
+                </div>
+    
+                <div class="col-md-6 mt-3">
+                    
+                    <form action="" method="get" class="form">
+    
+                        <h1 class="text-center">Sign In to <span class="home">Home</span>Bites</h1>
+                        <button type="submit" class="btn btn-SWG w-100 mb-3"> <i class="bi bi-google"></i> Sign with Google</button>
+
+                        <div class="mb-3">
+
+
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Email" required>
+                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                            <input type="password" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Password" required>
+    
+                            <!-- create button -->
+                            <button type="submit" class="btn btn-login w-100 mb-3">Log In</button>
+
+                            <p class="mb-3"><a href="#" class="btn-signup">Forgot Password</a></p>
+    
+                            <!-- already have a account -->
+    
+                            <p class="mb-3">Don't have a Account&ThinSpace;<a href="signUp.html" class="btn-signup">Sign Up&ThinSpace;</a></p>
+
+
+                        </div>
+    
+                    </form>
+    
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
