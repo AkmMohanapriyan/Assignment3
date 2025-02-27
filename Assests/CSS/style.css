@@ -143,11 +143,11 @@ li:hover{
 /* sixth section style start */
 
 .six-sec{
+    background-image: url('../IMAGE/carousel-1.jpg');
     background-color: #f3c8a5;
-    background-image: url(/Assests/IMAGE/carousel-1.jpg);
     background-size: cover;
     background-position: center;
-    color: rgb(26, 25, 25); 
+    color: white; 
     padding: 50px 0;
     height: 50vh;
     font-family: 'Times New Roman', Times, serif;
@@ -329,9 +329,10 @@ p{
     
 
 .co-cus{
+    background-image: url("/Assests/IMAGE/carousel-2.jpg");
     width: 100%;
     height: 350px;
-    background-image: linear-gradient(rgba(27, 27, 26, 0.5),rgba(19, 18, 17, 0.5)), url(Assests/IMAGE/carousel-1.jpg);
+    /* background-image: linear-gradient(rgba(27, 27, 26, 0.5),rgba(19, 18, 17, 0.5)), url("../IMAGE/courses-2.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -420,7 +421,8 @@ p{
 .co-cus{
     width: 100%;
     height: 350px;
-    background-image: linear-gradient(rgba(27, 27, 26, 0.5),rgba(19, 18, 17, 0.5)), url('Assests/IMAGE/about-1.jpg');
+    background-image: linear-gradient(rgba(27, 27, 26, 0.5),rgba(19, 18, 17, 0.5)), url(../IMAGE/carousel-1.jpg);
+    filter: blur(1px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
