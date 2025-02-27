@@ -134,12 +134,14 @@ li:hover{
 /* sixth section style start */
 
 .six-sec{
-    background-image: url('Assests/IMAGE/carousel-1.jpg');
+    background-color: #f3c8a5;
+    background-image: url(/Assests/IMAGE/carousel-1.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(26, 25, 25); 
     padding: 50px 0;
     height: 50vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
