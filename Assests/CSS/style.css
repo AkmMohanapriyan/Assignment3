@@ -92,15 +92,24 @@ li:hover{
     border-radius: 6px;
 }
 
-.btn-filter .btn-all, .btn-veg, .btn-bev{
+/* .btn-filter .btn-all, .btn-veg, .btn-bev{
     border-color: orangered;
 }
 
 .btn-filter .btn-all:hover, .btn-veg:hover, .btn-bev:hover{
     background-color: orangered;
+} */
+
+.btn-group-div button {
+    margin-left: 5px;
+    border-color: #ff7300;
+    background-color: #f3c8a5;
+    color: black;
 }
 
-
+.btn-group-div button:hover{
+    background-color: orangered;
+}
 
 /* section 4 style end */
 
